@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <meta name="viewport" content="width=device-width" />
+
+  <title>Exercise 1 - Changing Colors - Responsive Design</title>
+  
+  <!-- Included CSS Files (Uncompressed) -->
+  <!--
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  -->
+  
+  <!-- Included CSS Files (Compressed) -->
+  <link rel="stylesheet" href="stylesheets/foundation.min.css">
+  <link rel="stylesheet" href="stylesheets/app.css">
+
+  <script src="javascripts/modernizr.foundation.js"></script>
+</head>
+<body>
+
+  <p>My CSS file is located at stylesheets/app.css</p>
+  <p>Change my background color to the following when I am resized to the following breakpoints:</p>
+  <ul>
+    <li>Red at 480px max</li>
+    <li>Green after 480px, but at or before width is 720px max</li>
+    <li>Blue after 720px, but at or before width is 1024px max</li>
+    <li>Otherwise, make the background white</li>
+  </ul>
+
+  <script src="javascripts/jquery.js"></script>
+  <script src="javascripts/foundation.min.js"></script>
+  <script src="javascripts/app.js"></script>
+  <script>
+  $(window).load(function(){
+    $("#featured").orbit();
+  });
+  </script> 
+  
+</body>
+</html>

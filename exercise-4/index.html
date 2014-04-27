@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <meta name="viewport" content="width=device-width" />
+
+  <title>Exercise 1 - Changing Colors - Responsive Design</title>
+  
+  <!-- Included CSS Files (Uncompressed) -->
+  <!--
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  -->
+  
+  <!-- Included CSS Files (Compressed) -->
+  <link rel="stylesheet" href="stylesheets/foundation.min.css">
+  <link rel="stylesheet" href="stylesheets/app.css">
+
+  <script src="javascripts/modernizr.foundation.js"></script>
+</head>
+<body>
+
+  <div class="row">
+
+    <nav class="top-bar">
+      <ul class="title">
+        <li class="name"><a href="#">Main Navigation</a></li>
+        <li class="toggle-topbar"><a href="#"></a></li>
+      </ul>
+      <section>
+        <ul class="left">
+          <li><a href="#">Articles</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Donate</a></li>
+        </ul>
+      </section>
+    </nav>
+
+    <div id="content" class="nine columns">
+      <h1>INTRODUCTION</h1>
+      <p>This guy is a prolific letterer and between his freelance work and personal projects for Friends of Type—a site he cofounded with friend Aaron Carámbula—there’s no doubt that Erik has skills. While he initially studied design, Erik briefly thought he would take over his dad’s masonry business—thankfully, he didn’t. After a gallery internship, Erik was inspired to pursue what he truly wanted to do. Read on for the rest of his story, including how Friends of Type came to be, what he’s working on now, what lies ahead, and why Erik’s open to reinvention at any stage of the game.</p>
+
+      <h2>Describe your path to becoming a lettering artist</h2>
+      <p>I always knew I wanted to do something creative, but the path I took was more of a zigzag than a straight line. After high school, I studied graphic design at Cal Poly, a small liberal arts college in San Luis Obispo. It was a decent school, but my classmates were really the ones who engaged me in what was happening with art at the time. Graffiti was really popular and through that, I had more of a soft exposure to areas of typography and lettering, which confirmed what I always knew—that I enjoyed lettering—however, I had dedicated myself to learning design.</p>
+
+      <p>After graduation, there was no design work and I couldn’t find a job. The only job I could find was apprenticing with my dad in preparation to take over his masonry business. I did that for almost a year until I realized that, deep down inside, I wanted to do something more creative.</p>
+
+      <div class="row">
+        <ul id="more" class="six columns">
+          <h3>This guy is also featured in these sites:</h3>
+          <ul>
+            <li><a href="#">Article 1</a></li>
+            <li><a href="#">Article 2</a></li>
+            <li><a href="#">Article 3</a></li>
+            <li><a href="#">Article 4</a></li>
+            <li><a href="#">Article 5</a></li>
+          </ul>
+        </ul>
+
+        <ul id="related" class="six columns">
+          <h3>Related Articles:</h3>
+          <li><a href="#">Article 1</a></li>
+          <li><a href="#">Article 2</a></li>
+          <li><a href="#">Article 3</a></li>
+          <li><a href="#">Article 4</a></li>
+          <li><a href="#">Article 5</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <aside id="sidebar" class="three columns">
+      <h3>Recent Articles</h3>
+      <ul>
+        <li><a href="#">Article 1</a></li>
+        <li><a href="#">Article 2</a></li>
+        <li><a href="#">Article 3</a></li>
+        <li><a href="#">Article 4</a></li>
+        <li><a href="#">Article 5</a></li>
+      </ul>
+    </aside>
+  </div>
+
+  <script src="javascripts/jquery.js"></script>
+  <script src="javascripts/foundation.min.js"></script>
+  <script src="javascripts/app.js"></script>
+  <script>
+  $(window).load(function(){
+    $("#featured").orbit();
+  });
+  </script> 
+  
+</body>
+</html>

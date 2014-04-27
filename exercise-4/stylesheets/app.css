@@ -1,0 +1,28 @@
+body {
+  padding: 20px;
+
+  /* show the default background color for 720 and up */
+  background: url("../images/grunge.png");
+}
+
+@media screen and (min-width: 720px) {
+  h1 {
+    height: 300px;
+    line-height: 300px;
+    color: white;
+    background: url("../images/sea.jpg") center;
+    padding: 20px;
+  }
+}
+
+/* hide the instructions */
+@media screen and (max-width: 720px) {
+  .instructions {
+    display: none;
+  }
+  
+  /* display the honeycomb background */
+  body {
+    background: url("../images/honeycomb.png");
+  }
+}
